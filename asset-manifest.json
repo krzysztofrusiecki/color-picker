@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/color-picker/./static/css/main.4e83c5e2.chunk.css",
+    "main.js": "/color-picker/./static/js/main.63d0fe9c.chunk.js",
+    "main.js.map": "/color-picker/./static/js/main.63d0fe9c.chunk.js.map",
+    "runtime-main.js": "/color-picker/./static/js/runtime-main.d83c6eab.js",
+    "runtime-main.js.map": "/color-picker/./static/js/runtime-main.d83c6eab.js.map",
+    "static/js/2.13654fea.chunk.js": "/color-picker/./static/js/2.13654fea.chunk.js",
+    "static/js/2.13654fea.chunk.js.map": "/color-picker/./static/js/2.13654fea.chunk.js.map",
+    "index.html": "/color-picker/./index.html",
+    "precache-manifest.7bcb8ee2f9d5c34f6bde7d4403acb88d.js": "/color-picker/./precache-manifest.7bcb8ee2f9d5c34f6bde7d4403acb88d.js",
+    "service-worker.js": "/color-picker/./service-worker.js",
+    "static/css/main.4e83c5e2.chunk.css.map": "/color-picker/./static/css/main.4e83c5e2.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d83c6eab.js",
+    "static/js/2.13654fea.chunk.js",
+    "static/css/main.4e83c5e2.chunk.css",
+    "static/js/main.63d0fe9c.chunk.js"
+  ]
+}
