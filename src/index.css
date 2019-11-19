@@ -1,0 +1,111 @@
+/* https://www.pngrepo.com/svg/24150/copy */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color-vis {
+  width: 75%;
+  height: 33vh;
+  min-width: 1000px;
+  /* border: 3px solid #ccc; */
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.rgbcontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.slider-container {
+  width: 80%;
+  height: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cc {
+  height: 30px;
+  width: 70%;
+  background-color: #fff;
+  display: flex;
+}
+
+.color {
+  width: 70%;
+  height: 100%;
+}
+
+.copy {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.copy img {
+  display: block;
+  height: 80%;
+  width: auto;
+}
+
+.copy:hover {
+  background-color: #fff;
+}
+
+.copy span {
+  display: none;
+  padding: 4px 5px;
+  margin-left: 8px;
+  width: 80px;
+}
+
+.clicked span {
+  display: inline;
+  position: absolute;
+  margin: 0 0 0 80px;
+  background: #dddddd;
+  border: 1px solid #b30000;
+  color: #000000;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  text-align: center;
+  font-weight: bold;
+}
